@@ -40,21 +40,21 @@ main {
   gap: 2.5rem;
 }
 
-.advertisement {
+.title_text_container {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   text-align: center;
 }
 
-.ad_title {
+.title {
   font-size: 2rem;
   color: var(--Very-Dark-Magenta);
   line-height: 1.6rem;
   padding: 0 2rem;
 }
 
-.ad_text {
+.text {
   color: var(--Dark-Grayish-Magenta);
   line-height: 1.4rem;
   padding: 0 1rem;
@@ -169,7 +169,7 @@ main {
     gap: 7rem;
   }
 
-  .advertisement {
+  .title_text_container {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -177,13 +177,13 @@ main {
     width: 24rem;
   }
 
-  .ad_title {
+  .title {
     font-size: 3.4rem;
     line-height: 2.4rem;
     padding: 0;
   }
 
-  .ad_text {
+  .text {
     font-size: 1.1rem;
     line-height: 1.4rem;
     padding: 0;
